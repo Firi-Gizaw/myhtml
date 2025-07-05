@@ -113,11 +113,13 @@ e{
   
     background-color: #E5E7EB;
     margin-bottom: 110px;
+    padding-top: 80px;
+    padding-bottom: 80px;
 
 }
 .v{
     text-align: right;
-    padding-right: 300px;
+    padding-right: 100px;
     font-size: larger;
 }
 .aa{
@@ -157,4 +159,7 @@ e{
  height : 30px;
  padding-top: 8px;
  padding-bottom: 5px;
+}
+.zz{
+    margin-bottom: 70px;
 }
