@@ -10,6 +10,10 @@
 e{
     display: inline-block;
 }*/
+*{
+    margin: 0px;
+    padding: 0px;
+}
 .a{
     display: flex;
     margin-bottom: 100px;
@@ -25,6 +29,7 @@ e{
     font-family:Arial, Helvetica, sans-serif;
     font-size: 24px;
     color: #F9FAF8;
+    margin-left: 200px;
 .c,.d,.e{
     font-size: 18px;
     color: E5E7EB;
@@ -32,10 +37,21 @@ e{
 }
 .g{
     background-color:#3882F6;
+    color: #F9FAF8;
+    opacity: 0.8;
+    height: 30px;
+}
+.g:hover{
+    opacity: 1;
+    color: #1F2937;
 }
 .j{
     display: flex;
     gap: 50px;
+    margin-left: 200px;
+}
+.n{
+    margin-bottom: 30px;
 }
 .i{
     padding-top: 58px;
@@ -58,30 +74,87 @@ e{
 .o img{
     width: 143px;
     height: 143px;
-    border-width:20px;
-    border-color: #043077;
+    border: 3px solid rgb(76, 131, 250);
     
 }
 .p img{
     width: 143px;
     height: 143px;
+    border: 3px solid rgb(76, 131, 250);
 }
 .q img{
     width: 143px;
     height: 143px;
+    border: 3px solid rgb(76, 131, 250);
 }
 .r img{
     width: 143px;
     height: 143px;
+    border: 3px solid rgb(76, 131, 250);
 }
 .s{
     display: flex;
     justify-content: center;
     gap: 30px;
+    
 }
 .n{
     text-align: center;
     font-size: 36px;
-    color: #1F2937;
+   color: #1F2937;
    weight: 900;
+}
+.u{
+    text-align: center;
+    font-size: 36px;
+    font-style: italic;
+}
+.t{
+  
+    background-color: #E5E7EB;
+    margin-bottom: 110px;
+
+}
+.v{
+    text-align: right;
+    padding-right: 300px;
+    font-size: larger;
+}
+.aa{
+    display: flex;
+    gap: 60px;
+}
+.dd{
+    background-color: #3882F6;
+    margin-bottom: 100px;
+}
+.ee{
+    font-size: larger;
+    color: white;
+    padding-top: 20px;
+}
+.bb{
+    color: beige;
+}
+.cc{
+    padding-top: 10px;
+   padding-bottom: 15px;
+}
+.ff{
+     background-color:#3882F6 ;
+     color: white;
+     opacity: 0.5;
+     width: 80px;
+}
+.ff:hover{
+    opacity: 1;
+    color: black;
+}
+.gg{
+    background-color:#051f4b;
+    color: #E5E7EB;
+    text-align: center;
+ height : 30px;
+ padding-top: 8px;
+ padding-bottom: 5px;
 }
