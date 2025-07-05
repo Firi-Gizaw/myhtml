@@ -55,3 +55,33 @@ e{
    padding-top: 100px;
    padding-bottom: 40px;
 }
+.o img{
+    width: 143px;
+    height: 143px;
+    border-width:20px;
+    border-color: #043077;
+    
+}
+.p img{
+    width: 143px;
+    height: 143px;
+}
+.q img{
+    width: 143px;
+    height: 143px;
+}
+.r img{
+    width: 143px;
+    height: 143px;
+}
+.s{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.n{
+    text-align: center;
+    font-size: 36px;
+    color: #1F2937;
+   weight: 900;
+}
